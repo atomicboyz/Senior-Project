@@ -40,7 +40,7 @@ public class PhoneCamera : MonoBehaviour {
 
 		cameraTexture.Play (); // Start the camera
 		plane.GetComponent<Renderer>().material.mainTexture = cameraTexture;
-		//background.texture = cameraTexture; // Set the texture
+		background.texture = cameraTexture; // Set the texture
 
 		camAvailable = true; // Set the camAvailable for future purposes.
 		Screen.autorotateToLandscapeLeft = false;
